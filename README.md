@@ -1,96 +1,99 @@
-# AI-Based Car Insurance Risk, Liability and Pricing Prediction
-## Overview
+# Prédiction du risque, de la responsabilité et de la tarification en assurance automobile basée sur l’IA
 
-This project focuses on predicting accident risk, assessing liability, and estimating insurance pricing from unstructured car accident descriptions using Natural Language Processing (NLP) and machine learning techniques.
+## Aperçu
 
-The solution also integrates a conversational AI chatbot designed to assist claims adjusters and insurance experts during accident analysis, data collection, and decision-making.
+Ce projet vise à prédire le niveau de risque d’un accident, évaluer la responsabilité et estimer l’impact sur la tarification de l’assurance à partir de descriptions textuelles non structurées d’accidents automobiles, en utilisant le traitement du langage naturel (NLP) et l’apprentissage automatique.
 
-## Objectives
+La solution intègre également un chatbot conversationnel basé sur l’intelligence artificielle, conçu pour assister les experts en sinistres et les analystes d’assurance lors de l’analyse des accidents, de la collecte des données et de la prise de décision.
 
-Automatically analyze free-text accident descriptions
+---
 
-Predict accident risk levels
+## Objectifs
 
-Provide preliminary liability assessments
+- Analyser automatiquement les descriptions libres d’accidents  
+- Prédire les niveaux de risque d’accident  
+- Fournir une évaluation préliminaire de la responsabilité  
+- Estimer l’impact sur la prime d’assurance  
+- Assister les experts en sinistres grâce à un chatbot conversationnel  
+- Réduire le temps de traitement et améliorer la cohérence des évaluations  
 
-Estimate insurance pricing impact
+---
 
-Assist claims experts through a conversational AI chatbot
+## Fonctionnalités principales
 
-Reduce processing time and improve consistency in evaluations
+- Extraction, par NLP, d’informations structurées à partir des récits d’accidents  
+- Modèles de machine learning pour la prédiction du risque, de la responsabilité et de la tarification  
+- Chatbot conversationnel pour soutenir les experts en sinistres et les enquêteurs  
+- Pipeline d’analyse évolutif, reproductible et automatisé  
+- Outil d’aide à la décision pour le traitement d’un grand volume de réclamations  
 
-## Key Features
+---
 
-NLP-based extraction of structured information from accident narratives
+## Architecture du projet
 
-Machine learning models for risk, liability, and pricing prediction
-
-Conversational chatbot to support claims adjusters and investigators
-
-Scalable and reproducible analysis pipeline
-
-Decision support for high-volume claim processing
-
-## Project Architecture
 data/
  ├── raw_reports/
  ├── processed_data/
+
 models/
- ├── nlp_models
+ ├── nlp_models/
  ├── pricing_model/
+
 chatbot/
  ├── prompts/
  ├── conversation_logic/
+
 src/
  ├── preprocessing/
  ├── feature_extraction/
  ├── prediction/
  ├── evaluation/
 
-## Tech Stack
+---
 
-Python
+## Pile technologique
 
-Natural Language Processing (NLP)
+- Python  
+- Traitement du langage naturel (NLP)  
+- Apprentissage automatique (Machine Learning)  
+- Grands modèles de langage (via Ollama)  
+- Sorties structurées au format JSON  
+- Intelligence artificielle conversationnelle  
 
-Machine Learning
+---
 
-Large Language Models (via Ollama)
+## Indicateurs clés de performance (KPI)
 
-JSON-based structured outputs
+- Réduction de 50 % du temps moyen d’analyse des réclamations  
+- 85 % de précision analytique validée par des experts du domaine  
+- 90 % des utilisateurs jugent l’interface intuitive  
+- 80 % des demandes traitées sans intervention humaine  
+- Temps de réponse inférieur à 2 secondes pour 95 % des interactions  
 
-Conversational AI
+---
 
-## Key Performance Indicators (KPIs)
+## Parties prenantes
 
-50% reduction in average claim analysis time
+Yasmine Ameur / Lara Abou-Arraj – Expertes en intelligence artificielle  
 
-85% analytical accuracy validated by domain experts
+Responsables du développement des modèles NLP, de la validation ainsi que de l’évaluation des performances.
 
-90% of users rate the interface as intuitive
+---
 
-80% of requests handled without human intervention
+## Risques et hypothèses
 
-Response time under 2 seconds for 95% of interactions
+### Hypothèses
 
-Stakeholders
+- Les descriptions d’accidents contiennent suffisamment d’informations pour permettre une analyse automatisée fiable  
+- La validation par des experts permet une amélioration continue du modèle  
 
-Yasmine Ameur/ Lara Abou-Arraj – AI Expert
-Responsible for NLP model development, validation, and performance evaluation
+### Risques
 
-## Risks and Assumptions
-### Assumptions
+- Variabilité et qualité inégale des données textuelles  
+- Difficulté d’interprétation des scénarios ambigus ou incomplets  
 
-Accident descriptions contain sufficient information for reliable automated analysis
+---
 
-Expert validation enables continuous model improvement
+## Statut
 
-### Risks
-
-Variability and inconsistent quality of textual data
-
-Challenges in interpreting ambiguous or incomplete accident scenarios
-
-## Status
-
-This project is under active development and intended for academic and research purposes, with potential applications in insurance and risk management.
+Ce projet est actuellement en cours de développement et est destiné à des fins académiques et de recherche, avec un fort potentiel d’application dans le domaine de l’assurance et de la gestion des risques.
