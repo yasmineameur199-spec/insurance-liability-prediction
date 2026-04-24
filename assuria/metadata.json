@@ -1,0 +1,22 @@
+{
+  "model_name": "XGBoost (Optuna)",
+  "r2_dollars": 0.6752,
+  "mae_dollars": 10820.99,
+  "rmse_dollars": 14445.48,
+  "feature_names": [
+    "policy_state",
+    "policy_deductable",
+    "auto_make",
+    "auto_year",
+    "incident_type",
+    "collision_type",
+    "incident_severity",
+    "incident_state",
+    "incident_hour_of_the_day",
+    "number_of_vehicles_involved",
+    "bodily_injuries",
+    "witnesses",
+    "police_report_available"
+  ],
+  "n_features": 13
+}
